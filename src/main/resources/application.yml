@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+oauth:
+  apple:
+    base-auth-url: https://appleid.apple.com/auth/authorize
+    client-id: com.quickteller.app.M28B7CT6HR
+    redirect-uri: https://e482-154-113-150-150.ngrok-free.app/oauth/apple-sign-in
+    response-type: code%20id_token
+    scope: name%20email
+    response-mode: form_post
+    state: test-state
+    token-url: https://appleid.apple.com/auth/token
+    team-id: M28B7CT6HR
+    key-id: FA7F7M688H
+    grant-type: authorization_code
